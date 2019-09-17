@@ -1,6 +1,6 @@
 require 'json'
 
-module Infobeep
+module Infobip
   class SMSRequest < BaseRequestModel
     attribute :from, String
     attribute :to, Array[String]

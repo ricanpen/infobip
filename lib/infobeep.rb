@@ -1,9 +1,9 @@
 require "virtus"
-require "infobeep/version"
-require "infobeep/client"
-require "infobeep/models"
-require "infobeep/requests"
+require "infobip/version"
+require "infobip/client"
+require "infobip/models"
+require "infobip/requests"
 
-module Infobeep
+module Infobip
   # Your code goes here...
 end
