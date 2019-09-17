@@ -1,6 +1,6 @@
 require 'json'
 
-module Infobeep
+module Infobip
   class BulkSMSRequest < BaseRequestModel
     attribute :bulkId, String
     attribute :messages, Array[SMSRequest]

@@ -1,6 +1,6 @@
 require 'json'
 
-module Infobeep
+module Infobip
 
   class Model
     include ::Virtus.model(nullify_blank: true)

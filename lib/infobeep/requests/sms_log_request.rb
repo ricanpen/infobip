@@ -1,6 +1,6 @@
 require 'json'
 
-module Infobeep
+module Infobip
   class SMSLogRequest < BaseRequestModel
     attribute :from, String
     attribute :to, String

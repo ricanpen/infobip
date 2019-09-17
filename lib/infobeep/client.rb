@@ -2,7 +2,7 @@ require 'base64'
 require 'json'
 require 'rest-client'
 
-module Infobeep
+module Infobip
 
   class Client
     API_BASE_URL = APP_CONFIG.infobip.api_url
@@ -34,7 +34,7 @@ module Infobeep
 
     def client_headers
       hsh = {
-          'User-Agent': "Infobeep-#{Infobeep::VERSION}",
+          'User-Agent': "Infobip-#{Infobip::VERSION}",
           'Content-Type': 'application/json',
           'accept': 'application/json'
       }

@@ -1,6 +1,6 @@
 require 'json'
 
-module Infobeep
+module Infobip
   class BaseRequestModel < Model
 
     def payload
