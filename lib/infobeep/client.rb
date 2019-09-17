@@ -5,7 +5,7 @@ require 'rest-client'
 module Infobeep
 
   class Client
-    API_BASE_URL = 'https://26l26.api.infobip.com/'
+    API_BASE_URL = APP_CONFIG.infobip.api_url
 
     def initialize(key, user_id)
       @key = key
